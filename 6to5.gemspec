@@ -1,4 +1,4 @@
-require File.expand_path("../lib/6to5/version.rb", __FILE__)
+require '6to5/version.rb'
 
 Gem::Specification.new do |s|
   s.name    = '6to5'
