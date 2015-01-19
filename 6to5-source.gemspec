@@ -1,3 +1,5 @@
+$:.unshift File.expand_path("../lib", __FILE__)
+
 require '6to5/source.rb'
 
 Gem::Specification.new do |s|

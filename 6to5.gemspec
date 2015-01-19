@@ -1,3 +1,5 @@
+$:.unshift File.expand_path("../lib", __FILE__)
+
 require '6to5/version.rb'
 
 Gem::Specification.new do |s|
@@ -17,7 +19,6 @@ Gem::Specification.new do |s|
     'LICENSE'
   ]
 
-  s.add_dependency '6to5-source', '~> 2.x'
   s.add_dependency 'execjs', '~> 2.0'
 
   s.authors = ['Joshua Peek']
